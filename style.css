@@ -1,0 +1,94 @@
+body{
+    background-color:hsl(0, 100%, 74%) ;
+    Font-size: 16px;
+    font-family: poppins;
+    color: white;
+    margin: 0;
+}
+.container{
+    
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+   
+}
+span{
+    color: hsl(0, 100%, 74%);
+}
+.idk{
+    margin: 4rem;
+}
+button{
+    background-color: hsl(154, 59%, 51%);
+    border-radius: .3rem;
+    margin: .5rem 0;
+    border: none;
+    width: 100%;
+    color: white;
+    height: 2.5rem;
+}
+input{
+    width: 100%;
+    border-radius: .3rem;
+    margin: .5rem 0;
+    height: 2.5rem;
+    border: hsl(246, 25%, 77%);
+    color: hsl(249, 10%, 26%);
+}
+#terms{
+    text-align: center;
+    color:hsl(246, 25%, 77%);
+    text-justify: center;
+}
+.head-text p{
+    padding: 1rem;
+}
+.head-text{
+    text-justify: center;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: .3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    box-shadow:0 0 .4rem 0 hsl(246, 25%, 77%) ;
+}
+#form{
+    background-color: white;
+    padding: 2rem;
+    border-radius: .3rem;
+    box-shadow:0 0 .4rem 0 hsl(246, 25%, 77%) ;
+}
+form{
+    align-items: center;
+}
+.intro{
+    text-justify: center;
+    padding: 25% 2rem 25% 3rem;
+    text-align: center;
+    
+    
+}
+
+@media only screen and (max-width:375px) {
+.container{
+    flex-direction: column;
+    background: url(./images/bg-intro-mobile.png);
+}   
+.idk{
+    margin: .6rem;
+} 
+
+}
+@media only screen and (min-width:376px) {
+    .container{
+        background: url(./images/bg-intro-desktop.png);
+        display: flex;
+        flex-direction: row;
+    }
+
+    .idk{
+        margin: .6rem;
+    } 
+   
+    }
